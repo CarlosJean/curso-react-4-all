@@ -1,0 +1,44 @@
+.followers .names {
+    color: #999999;
+}
+
+.followers .names {
+    font-size: 11pt;
+}
+
+.followers .images {
+	position: relative;
+	width: 65px;
+	float: left;
+	height: 35px;
+}
+
+.first-follower, .second-follower {
+	border-radius: 50%;
+	position: absolute;
+}
+
+.first-follower {
+	width: 60%;
+	height: 35px;
+}
+
+.second-follower {
+	width: 55%;
+	height: 90%;
+	margin-left: 25px;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.followers .names{
+    margin-left: 1px;
+}
+
+.names{    
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

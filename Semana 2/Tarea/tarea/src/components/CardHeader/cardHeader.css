@@ -1,0 +1,17 @@
+.background-image {
+    border-radius: 5px 5px 0px 0px;
+    height: 67px;
+    width: 100%;
+}
+
+.header {
+    position: relative;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    margin-left: 12px;
+    margin-top: 12px;
+    position: absolute;
+    width: 75px;
+}
